@@ -1,0 +1,48 @@
+body{
+    background-image: url(fondo.jfif);
+    height:665px;
+    background-size: 10rem;
+    height: 50px;
+    margin: 7%;
+    margin-block: 5%;
+}
+img{
+    max-width: 200px;
+    max-height: 500px;
+    position: center;
+ 
+}
+h2{
+    color: rgb(145, 101, 35);
+    font-family: oso;
+}
+h1{
+    color: rgb(151, 85, 32);
+    font-family: neko;
+    text-align: center;
+}
+li {
+    color: rgb(207, 150, 64);
+    font-family: gato;
+    
+}
+@font-face {
+    font-family: fofo;
+    src: url(letra\ nekito.ttf);
+}
+@font-face {
+    font-family: gato;
+    src: url(letra.otf);
+}
+@font-face {
+    font-family: oso;
+    src: url(letra\ osito\ -\ copia\ \(2\).ttf);
+}
+@font-face {
+    font-family: neko;
+    src: url(letra\ neko.otf);
+}
+.contenedor{
+    background-color: rgb(247, 229, 208);
+    
+}
