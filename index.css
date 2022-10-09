@@ -5,6 +5,7 @@ body{
     height: 50px;
     margin: 7%;
     margin-block: 5%;
+    flex-wrap: wrap;
 }
 img{
     max-width: 200px;
@@ -49,6 +50,7 @@ li {
     margin-block: 5%;
     
     
+    
 }
 header {
     display: flex;
@@ -57,10 +59,12 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+    
 }
 .logo {
     display: flex;
     align-items: center;
+    
 }
 .logo img {
     height: 50px;
@@ -116,6 +120,7 @@ div.pie{
     grid-template-columns: repeat(2,1fr);
     grid-gap: 50px;
     margin-top: 90px;
+    
 }
 .container-form h2 {
     margin-bottom: 15px;
@@ -136,10 +141,12 @@ div.pie{
     margin-bottom: 15px;
     color: rgb(125, 106, 62);
     font-weight: 700;
+    
 }
 .container-form a i{
     color: brown;
     margin-right: 10px;
+    
 }
 .container-form form .campo, textarea{
     width: 60%;
